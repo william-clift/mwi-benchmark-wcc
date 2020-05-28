@@ -5,14 +5,23 @@ Midwestern Interactive Benchmark, 05/28/2020
 My Enneagram test says I'm most likely a 2 or a 5, although I've taken it several times in the past and always get different results. Who knows what I am? Here's my full results:
 
 Type 2 - 11
+
 Type 5 - 11
+
 Type 1 - 10
+
 Type 3 - 10
+
 Type 6 - 10
+
 Type 9 - 9.4
+
 Type 4 - 7.7
+
 Type 7 - 2
+
 Type 8 - 0.7
+
 
 # communication skills
 (email no. 2)
