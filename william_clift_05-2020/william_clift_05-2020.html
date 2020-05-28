@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- I used Bootstrap, which is what I know best, although I'm familiar with plain HTML and CSS as well. My knowledge of JavaScript and PHP is pretty minimal (I've started introductory courses on Codecademy for each), so I definitely didn't do the puzzle correctly. I can declare a variable with the best of 'em, though! Given some time, I'm sure I could learn them.-->  
+  
+<head>
+    
+<meta charset="utf-8">
+<meta name="description" content ="MWI Benchmark"> 
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">    
+    
+<title>Midwestern Interactive Benchmark</title>      
+    
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+  
+<!-- the primordial soup of a JS function -->
+<script type="text/javascript">
+  var listOne = [
+    nameOne: "Matt Johnson",
+    nameTwo: "Bart Paden",
+    nameThree: "Ryan Doss",
+    nameFour: "Michael Spangler"
+  ];
+  
+  var listTwo = [
+    nameOne: "Matt Johnson",
+    nameTwo: "Bart Paden",
+    nameThree: "Jordan Heigle",
+    nameFour: "Tyler Viles"
+  ];
+function removeDuplicates(data) {
+  return data.filter((value, index) => data.indexOf(value)===index);
+}
+console.log(removeDuplicates(arr))
+
+</script>    
+
+</head>
+<body>
+
+<!-- top bar with logo lockup -->	
+<div class="container my-3"
+     id="topBar">
+    <div class="row px-2">
+        <div class="col-md">
+        </div>
+        <div class="col-md"><a href="#"><img src="img/mwi-logo-horizontal.png" class="img-fluid mx-auto" alt="MWI-lockup"></a>
+        </div>
+        <div class="col-md">
+        </div>
+    </div>
+</div>
+
+<hr style="border-color: black;" />
+
+<!-- section 1 title and cards -->
+<div class="container" id="section-1-cards">
+    <div class="row container mt-5 mb-3" id="page-title">
+        <h1 style="font-weight: normal;">
+						<u>HEADING ONE</u>
+				</h1>
+    </div>
+		
+<div class="row">
+<!-- card #1 -->
+		<div class="col-lg-4 mb-4">
+				<div class="card border-white">
+					<img src="img/placeholder.png" alt="placeholder" class="card-img-top">
+					<div class="card-body px-0">
+							<h2 class="card-title">Heading 2</h2>
+							<p class="card-text mb-4">This is a paragraph text that is meant to flex and wrap to a new line based on the number of characters in this container. Please make sure that this looks pretty based on the number of characters this takes up.</p>
+							<a href="#" class="btn btn-dark">Read more</a>
+					</div>
+				</div>
+		</div>
+<!-- card #2 -->
+		<div class="col-lg-4 mb-4">
+				<div class="card border-white">
+					<img src="img/placeholder.png" alt="placeholder" class="card-img-top">
+					<div class="card-body px-0">
+							<h2 class="card-title">Heading 2</h2>
+							<p class="card-text mb-4">This is a paragraph text that is meant to flex and wrap to a new line based on the number of characters in this container. Please make sure that this looks pretty based on the number of characters this takes up.</p>
+							<a href="#" class="btn btn-dark">Read more</a>
+					</div>
+				</div>
+		</div>
+<!-- card #3 -->
+		<div class="col-lg-4 mb-4">
+				<div class="card border-white">
+					<img src="img/placeholder.png" alt="placeholder" class="card-img-top">
+					<div class="card-body px-0">
+							<h2 class="card-title">Heading 2</h2>
+							<p class="card-text mb-4">This is a paragraph text that is meant to flex and wrap to a new line based on the number of characters in this container. Please make sure that this looks pretty based on the number of characters this takes up.</p>
+							<a href="#" class="btn btn-dark">Read more</a>
+					</div>
+				</div>
+		</div>
+</div>
+</div>
+		
+<!-- section 2 contact form -->
+
+<div class="container-fluid py-5 text-white" id="section-2-contact" style="background-color: lightgray">
+  <div class="row">
+    <!-- whitespace left -->
+    <div class="col-md-4"></div>
+    
+    <!-- contact form -->
+    <div class="col-md-4">
+      <h3 class="text-white text-center mb-2" style="font-weight:normal;">CONTACT</h3>
+      
+      <form class="needs-validation" novalidate>
+        <div class="form-group">
+          <label for="inputEmail">Email</label>
+          <input type="email"  class="form-control" id="inputEmail" required>
+          <div class="invalid-feedback"><em>Must use a valid email.</em></div>
+        </div>
+        <div class="form-group">
+          <label for="inputSubject">Subject</label>
+          <input type="text"  class="form-control" id="inputSubject" required>
+          <div class="invalid-feedback"><em>Subject is required.</em></div>
+        </div>
+        <div class="form-group">
+          <label for="inputMessage">Message</label>
+          <textarea type="text"  class="form-control" id="inputMessage" rows="6" required></textarea>
+          <div class="invalid-feedback"><em>Message is required.</em></div>
+        </div>
+      <button type="submit" class="btn btn-dark">Submit</button>
+      </form>
+      
+    </div>
+    
+    <!-- whitespace right -->
+    <div class="col-md-4"></div>
+  </div>
+</div>
+  
+<!-- section 3 JS puzzle -->
+<div class="container">
+  <div class="row mt-5 mb-3" id="section-3-title">
+    <h1 style="font-weight: normal;">
+        <u>HEADING ONE</u>
+    </h1>
+  </div>
+  <div class="row mb-5">
+    <p>Remove the duplicates in 2 Javascript objects and output the list of distinct names in an unordered list when <a href="javascript:void" style="color: red;" id="puzzleLink" onclick="removeDuplicates">this link is clicked</a>. If the operation has been completed already, notify the user that this has already been done.</p>
+  </div>
+</div>
+  
+<!-- section 4 footer — including this just because the mockup has it, haha -->
+<div class="container-fluid bg-dark text-white pt-3 pb-2">
+  <p class="text-center"><em>Thank you for sending me the Midwestern Interactive Benchmark Test.</em></p>
+</div>  
+  
+  
+<script>
+(function() {
+  'use strict';
+  window.addEventListener('load', function() {
+    var forms = document.getElementsByClassName('needs-validation');
+    var validation = Array.prototype.filter.call(forms, function(form) {
+      form.addEventListener('submit', function(event) {
+        if (form.checkValidity() === false) {
+          event.preventDefault();
+          event.stopPropagation();
+        }
+        form.classList.add('was-validated');
+      }, false);
+    });
+  }, false);
+})();
+</script>
+    
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+    
+</body>
+</html>
