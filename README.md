@@ -42,3 +42,5 @@ Midwestern Interactive
   
 # code test
 See the attached HTML file. I used Bootstrap, which is what I know best, although I'm familiar with plain HTML and CSS as well. My knowledge of JavaScript and PHP is pretty minimal (I've started introductory courses on Codecademy for each), so I definitely didn't do the puzzle correctly. I can declare a variable with the best of 'em, though! Given some time, I'm sure I could learn them.
+
+# thank you very much for considering me!
