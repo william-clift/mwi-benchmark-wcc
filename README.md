@@ -29,8 +29,11 @@ Type 8 - 0.7
 Hello (Contact Name),
 
 I’m William Clift, one of the developers at Midwestern Interactive who has been working on the website for (Client Company Name). I’m currently putting together the "About Us" page, but I’m in need of some additional content in order to wrap it up. Would you be able to send over:
+
 	• photos of the (Company Name) founders and staff (in .jpg or .png format, if possible) and
+	
 	• a brief 2-3 paragraph description of the company, its story, and its mission
+
 
 Thank you so much for your assistance. Please let me know if you have any questions!
 
